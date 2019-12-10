@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+body{
+	background-color: #32CD32;
+	overflow: scroll;	
+}
+
+h1{
+	color: green;
+	font-size: 50px;
+}
+
+h2{
+	color: red;
+	font-size: 30px;
+}
+
+.something
+{
+	color: blue;
+	overflow: visible;
+	margin-right: auto;
+	margin-bottom: 50px;
+}
+
+.indent-1 
+{
+	float: left;
+}
+    
+.indent-1 section 
+{
+	width: 100%; 
+	float: left;
+}
+
+list, ul, ol, li
+{
+	color: black;
+	font-size: 30px;
+	text-align: center;
+	margin-right: 5px;
+	list-style-position: inherit;
+}
+
+
+p
+{
+	color: red;
+	overflow: visible;
+	font-size: 30px;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+table, th, td
+{
+	margin-left: auto;
+	margin-right: auto;
+	color: black;
+	border: 5px solid red;
+}
+
+#laatikko{
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	height: 300px;
+	border: 3px solid #FF0000;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: black;
+}
+
+#map{
+	margin-right: auto;
+}
